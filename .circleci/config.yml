@@ -1,6 +1,5 @@
 version: 2
 jobs:
-  working_directory: ~/open-wc-starter-app
   build:
     docker: # use the docker executor type; machine and macos executors are also supported
       - image: circleci/node:8
