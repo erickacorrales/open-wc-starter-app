@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker: # use the docker executor type; machine and macos executors are also supported
-      - image: circleci/node:8
+      - image: circleci/node:8-browsers
     steps:
       - checkout # check out the code in the project directory
       - run:
